@@ -36,7 +36,7 @@ exit
 }
 
 # Isi oc :*
-echo -e $cyan"   ________           __ "
+echo -e $cyan"   _______           __ "
 echo -e $green"  /_  __/___  ____  / /____ "
 echo -e $white"   / / / __ \/ __ \/ / ___/ "
 echo -e $red"  / / / /_/ / /_/ / (__  ) "
