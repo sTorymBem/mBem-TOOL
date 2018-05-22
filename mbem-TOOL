@@ -36,10 +36,10 @@ exit
 }
 
 # Isi oc :*
-echo -e $cyan"      ________            __ "
+echo -e $cyan"   ________            __ "
 echo -e $green"  /_  __/___  ____  / /____ "
-echo -e $white"     / / / __ \/ __ \/ / ___/ "
-echo -e $red"      / / / /_/ / /_/ / (__  ) "
+echo -e $white"   / / / __ \/ __ \/ / ___/ "
+echo -e $red"    / / / /_/ / /_/ / (__  ) "
 echo -e $cyan"  /_/  \____/\____/_/____/ "
 echo ""
 echo -e $white"         ***********************************************"
@@ -88,7 +88,7 @@ apt update && apt upgrade
 apt install php
 apt install git
 git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 2 ] || [ $act = 02 ]
@@ -100,7 +100,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 apt-get install python2
 git clone https://github.com/shawarkhanethicalhacker/D-TECT
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 3 ] || [ $act = 03 ]
@@ -112,7 +112,7 @@ apt-get update && apt-get upgrade
 apt install python
 apt install git
 git clone https://github.com/b3-v3r/Hunner
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 4 ] || [ $act = 04 ]
@@ -131,7 +131,7 @@ bundle config build.nokogiri --use-system-libraries
 bundle install
 ruby wpscan.rb --update
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 5 ] || [ $act = 05 ]
@@ -149,7 +149,7 @@ cd ~/webdav
 wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
 chmod 777 webdav.py
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 06 ] || [ $act = 6 ]
@@ -163,7 +163,7 @@ apt install wget
 wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
 chmod 777 install.sh
 sh install.sh
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 07 ] || [ $act = 7 ]
@@ -177,7 +177,7 @@ git clone https://github.com/Hax4us/Nethunter-In-Termux.git
 cd ~/Nethunter-In-Termux
 chmod 777 kalinethunter
 sh kalinethunter
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 08 ] || [ $act = 8 ]
@@ -196,7 +196,7 @@ sh ubuntu.sh
 echo " Fix network please wait "
 sleep 1
 echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubuntu-fs/etc/resolv.conf
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 09 ] || [ $act = 9 ]
@@ -210,7 +210,7 @@ pip3 install mps_youtube
 pip3 install youtube_dl
 apt install mpv
 echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 10 ] || [ $act = 10 ]
@@ -225,7 +225,7 @@ git clone https://github.com/blackvkng/viSQL.git
 cd ~/viSQL
 chmod 777 viSQL.py
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 11 ] || [ $act = 11 ]
@@ -241,7 +241,7 @@ cd ~/weeman
 pip2 install beautifulsoup
 pip2 install bs4
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 12 ] || [ $act = 12 ]
@@ -274,7 +274,7 @@ cd ~/fbbrute
 wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
 chmod 777 fbbrute.py
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 14 ] || [ $act = 14 ]
@@ -288,7 +288,7 @@ cd ~/ngrok
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 15 ] || [ $act = 15 ]
@@ -302,7 +302,7 @@ pkg install python
 pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 16 ] || [ $act = 16 ]
@@ -318,7 +318,7 @@ cd routersploit
 pip install -r requirements.txt
 termux-fix-shebang rsf.py
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 17 ] || [ $act = 17 ]
@@ -330,7 +330,7 @@ apt update && apt install -y wget
 apt install hydra
 wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 18 ] || [ $act = 18 ]
@@ -342,7 +342,7 @@ pkg update
 pkg upgrade
 git clone https://github.com/glides/Weevely
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 19 ] || [ $act = 19 ]
@@ -354,7 +354,7 @@ apt update && apt upgrade
 apt install python2
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 20 ] || [ $act = 20 ]
@@ -367,7 +367,7 @@ apt-get install python
 apt-get install git
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem"
 fi
 
 if [ $act = 21 ] || [ $act = 21 ]
@@ -378,7 +378,7 @@ sleep 1
 git clone https://github.com/ekultek/pybelt.git
 pip install –r requirements.txt
 cd ~/
-echo -e $red" T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L mBem "
 fi
 
 if [ $act = 22 ] || [ $act = 22  ]
@@ -393,7 +393,7 @@ echo " mmmpppsss "
 sleep 1
 echo " aaahhh "
 sleep 1
-echo " Bye Sayang :* "
+echo " Bye Sayang mBem :* "
 sleep 1
 exit
 fi
