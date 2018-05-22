@@ -5,6 +5,6 @@ $ apt update && apt upgrade <br>
 $ apt install git <br>
 $ git clone https://github.com/sTorymBem/mBem-TOOL <br>
 $ cd mBem-TOOL <br>
-$ chmod 777 mBem-TOOL <br>
+$ chmod 777 mbem-TOOL <br>
 <br>
-Untuk menjalankan nya ketik ./mBem-TOOL dan pilih tools yg mau kalian install.
+Untuk menjalankan nya ketik ./mbem-TOOL dan pilih tools yg mau kalian install.
